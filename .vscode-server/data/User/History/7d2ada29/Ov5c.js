@@ -2,12 +2,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileInput = document.getElementById('fileInput');
     const uploadButton = document.getElementById('uploadButton');
     const fileItems = document.getElementById('fileItems');
-	const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
 
-	
+	// Function to retrieve and list uploaded files
+    function retrieveAndListFiles() {
+        client.metadata().then(metadata => {
+            const uploadedFiles = metadata.contents;
+            if (uploadedFiles && uploadedFiles.length > 0) {
+                uploadedFiles.forEach(file => {
+                    const listItem = document.createElement('li');
+                    listItem.innerText = file.filename;
+                    fileItems.appendChild(listItem);
+                });
+            } else {
+                fileItems.innerHTML = '<li>No uploaded files found.</li>';
+            }
+        }).catch(error => {
+            console.error('Error listing uploaded files:', error);
+        });
+    }
 
     uploadButton.addEventListener('click', () => {
-        
+        const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
         const client = filestack.init(apikey);  // Replace with your Filestack API key
         client.on('upload.error', (filestackError) => {
             console.log(filestackError);

@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileItems = document.getElementById('fileItems');
 	const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
 
-	
-
     uploadButton.addEventListener('click', () => {
         
         const client = filestack.init(apikey);  // Replace with your Filestack API key
