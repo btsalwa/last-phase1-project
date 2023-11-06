@@ -1,0 +1,11 @@
+2023-11-07 00:14:44.065 [info] 
+
+
+
+
+2023-11-07 00:14:44.065 [info] Extension host agent started.
+2023-11-07 00:14:44.066 [info] Started initializing default profile extensions in extensions installation folder. file:///home/btsalwa/.vscode-server/extensions
+2023-11-07 00:14:44.077 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/btsalwa/.vscode-server/extensions
+2023-11-07 00:14:44.191 [info] [127.0.0.1][68a8b847][ManagementConnection] New connection established.
+2023-11-07 00:14:44.792 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] New connection established.
+2023-11-07 00:14:44.926 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> Launched Extension Host Process.
