@@ -16,3 +16,10 @@
 2023-11-07 00:21:58.507 [info] Renamed to /home/btsalwa/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
 2023-11-07 00:21:58.509 [info] Extracting extension completed. ritwickdey.liveserver
 2023-11-07 00:21:58.517 [info] Extension installed successfully: ritwickdey.liveserver
+2023-11-07 00:22:30.995 [info] Getting Manifest... wakatime.vscode-wakatime
+2023-11-07 00:22:31.209 [info] Installing extension: wakatime.vscode-wakatime
+2023-11-07 00:22:32.675 [warning] Extension signature verification failed with error 'ENOENT': wakatime.vscode-wakatime
+2023-11-07 00:22:32.707 [info] Extracted extension to file:///home/btsalwa/.vscode-server/extensions/wakatime.vscode-wakatime-24.4.0: wakatime.vscode-wakatime
+2023-11-07 00:22:32.711 [info] Renamed to /home/btsalwa/.vscode-server/extensions/wakatime.vscode-wakatime-24.4.0
+2023-11-07 00:22:32.713 [info] Extracting extension completed. wakatime.vscode-wakatime
+2023-11-07 00:22:32.718 [info] Extension installed successfully: wakatime.vscode-wakatime

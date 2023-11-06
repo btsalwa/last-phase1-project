@@ -44,3 +44,5 @@
 2023-11-07 00:22:06.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4906
 2023-11-07 00:22:11.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4906
 2023-11-07 00:22:16.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4906
+2023-11-07 00:22:18.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4906
+2023-11-07 00:22:32.950 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: false, activationEvent: '*'
