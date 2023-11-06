@@ -3,8 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const uploadButton = document.getElementById('uploadButton');
     const fileItems = document.getElementById('fileItems');
 
+	const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
+
+	
+
+	
+
     uploadButton.addEventListener('click', () => {
-        const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
+        
         const client = filestack.init(apikey);  // Replace with your Filestack API key
         client.on('upload.error', (filestackError) => {
             console.log(filestackError);
@@ -47,21 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		        600
 	        ]
             
-        };
-        
-        
-        const clientOptions = {
-            security: {
-                policy: "eyJleHBpcnkiOiAxNTQ2ODk5NDI4LCAiY2FsbCI6IFsicmVhZCIsICJzdGF0IiwgImNvbnZlcnQiLCAicGljayIsICJzdG9yZSJdfQ==",
-                signature: "1fed86599156df046f925e0f773866654a4fc209b0b85b173b5d8088e898b685"
-            }
         }
-        const Http = new XMLHttpRequest();
-        const url='https://cdn.filestackcontent.com/cache=expiry:1523595600/bfTNCigRLq0QMOrsFKzb?policy=ewogICJleHBpcnkiOiAxNTIzNTk1NjAwLAogICJjYWxsIjogWyJyZWFkIiwgImNvbnZlcnQiXSwKICAiaGFuZGxlIjogImJmVE5DaWdSTHEwUU1PcnNGS3piIgp9&signature=5191e4c6c304c08296eab217ee05236a5bacaab9b581b535d5922a41079b77e0';
-            Http.open('GET', url);
-            Http.send();
-        
-
         const picker = client.picker(options); 
         picker.open();
     });
