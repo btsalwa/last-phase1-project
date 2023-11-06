@@ -9,3 +9,10 @@
 2023-11-07 00:14:44.191 [info] [127.0.0.1][68a8b847][ManagementConnection] New connection established.
 2023-11-07 00:14:44.792 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] New connection established.
 2023-11-07 00:14:44.926 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> Launched Extension Host Process.
+2023-11-07 00:21:51.366 [info] Getting Manifest... ritwickdey.liveserver
+2023-11-07 00:21:51.580 [info] Installing extension: ritwickdey.liveserver
+2023-11-07 00:21:53.862 [warning] Extension signature verification failed with error 'ENOENT': ritwickdey.liveserver
+2023-11-07 00:21:58.489 [info] Extracted extension to file:///home/btsalwa/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2023-11-07 00:21:58.507 [info] Renamed to /home/btsalwa/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2023-11-07 00:21:58.509 [info] Extracting extension completed. ritwickdey.liveserver
+2023-11-07 00:21:58.517 [info] Extension installed successfully: ritwickdey.liveserver
