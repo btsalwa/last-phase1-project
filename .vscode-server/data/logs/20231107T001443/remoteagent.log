@@ -23,3 +23,13 @@
 2023-11-07 00:22:32.711 [info] Renamed to /home/btsalwa/.vscode-server/extensions/wakatime.vscode-wakatime-24.4.0
 2023-11-07 00:22:32.713 [info] Extracting extension completed. wakatime.vscode-wakatime
 2023-11-07 00:22:32.718 [info] Extension installed successfully: wakatime.vscode-wakatime
+2023-11-07 00:24:00.182 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 13.131 ms - 148[0m
+
+2023-11-07 00:24:00.809 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /favicon.ico [33m404[0m 1.465 ms - 150[0m
+
+2023-11-07 00:25:11.949 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.413 ms - 148[0m
+
+2023-11-07 00:25:12.085 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /favicon.ico [33m404[0m 1.663 ms - 150[0m
+
+2023-11-07 00:26:39.506 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 0.749 ms - 148[0m
+
