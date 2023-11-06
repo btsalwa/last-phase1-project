@@ -37,3 +37,13 @@
 
 2023-11-07 00:29:57.457 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.058 ms - 148[0m
 
+2023-11-07 00:34:15.344 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.301 ms - 148[0m
+
+2023-11-07 00:34:18.859 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 2.750 ms - 148[0m
+
+2023-11-07 00:34:20.492 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.138 ms - 148[0m
+
+2023-11-07 00:34:21.270 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.159 ms - 148[0m
+
+2023-11-07 00:38:30.554 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 0.896 ms - 148[0m
+
