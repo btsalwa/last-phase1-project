@@ -1,0 +1,70 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'firestack' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/btsalwa/filestack/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/btsalwa/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 10ms
+19 timing npm:load:configload Completed in 10ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 3ms
+23 verbose logfile /home/btsalwa/.npm/_logs/2023-11-06T22_45_18_916Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 19ms
+28 timing arborist:ctor Completed in 1ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 13ms
+31 timing idealTree:userRequests Completed in 3ms
+32 silly idealTree buildDeps
+33 silly fetch manifest firestack@*
+34 http fetch GET 200 https://registry.npmjs.org/firestack 1541ms (cache miss)
+35 silly placeDep ROOT firestack@0.0.1 OK for:  want: *
+36 timing idealTree:#root Completed in 1553ms
+37 timing idealTree:node_modules/firestack Completed in 0ms
+38 timing idealTree:buildDeps Completed in 1554ms
+39 timing idealTree:fixDepFlags Completed in 1ms
+40 timing idealTree Completed in 1572ms
+41 timing reify:loadTrees Completed in 1573ms
+42 timing reify:diffTrees Completed in 1ms
+43 silly reify moves {}
+44 timing reify:retireShallow Completed in 1ms
+45 timing reify:createSparse Completed in 3ms
+46 timing reify:loadBundles Completed in 0ms
+47 silly audit bulk request { firestack: [ '0.0.1' ] }
+48 silly tarball no local data for firestack@https://registry.npmjs.org/firestack/-/firestack-0.0.1.tgz. Extracting by manifest.
+49 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 540ms
+50 timing auditReport:getReport Completed in 541ms
+51 silly audit report {}
+52 timing auditReport:init Completed in 0ms
+53 timing reify:audit Completed in 541ms
+54 http fetch GET 200 https://registry.npmjs.org/firestack/-/firestack-0.0.1.tgz 1528ms (cache miss)
+55 timing reifyNode:node_modules/firestack Completed in 1536ms
+56 timing reify:unpack Completed in 1536ms
+57 timing reify:unretire Completed in 0ms
+58 timing build:queue Completed in 1ms
+59 timing build:deps Completed in 2ms
+60 timing build Completed in 2ms
+61 timing reify:build Completed in 2ms
+62 timing reify:trash Completed in 0ms
+63 timing reify:save Completed in 4ms
+64 timing reify Completed in 3143ms
+65 silly ADD node_modules/firestack
+66 timing command:install Completed in 3149ms
+67 verbose exit 0
+68 timing npm Completed in 3310ms
+69 info ok

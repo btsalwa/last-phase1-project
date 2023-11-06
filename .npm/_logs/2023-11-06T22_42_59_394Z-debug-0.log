@@ -1,0 +1,492 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'filestack' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/btsalwa/filestack2/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/btsalwa/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 16ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 26ms
+19 timing npm:load:configload Completed in 26ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 5ms
+23 verbose logfile /home/btsalwa/.npm/_logs/2023-11-06T22_42_59_394Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 38ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 33ms
+30 timing idealTree:userRequests Completed in 3ms
+31 silly idealTree buildDeps
+32 silly fetch manifest filestack@*
+33 timing arborist:ctor Completed in 0ms
+34 http fetch GET 200 https://registry.npmjs.org/filestack 1635ms (cache miss)
+35 silly placeDep ROOT filestack@1.0.2 OK for:  want: *
+36 silly fetch manifest @angular/common@~8.0.0
+37 silly fetch manifest @angular/compiler@~8.0.0
+38 silly fetch manifest @angular/core@~8.0.0
+39 silly fetch manifest @angular/platform-browser@~8.0.0
+40 silly fetch manifest @angular/platform-browser-dynamic@~8.0.0
+41 silly fetch manifest rxjs@~6.4.0
+42 silly fetch manifest tslib@^1.9.0
+43 silly fetch manifest zone.js@~0.9.1
+44 silly fetch manifest filestack-js@3.x.x
+45 http fetch GET 200 https://registry.npmjs.org/tslib 107ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/rxjs 163ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/filestack-js 1997ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 2128ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/zone.js 2592ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 2949ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 3072ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic 4027ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 4762ms (cache miss)
+54 timing idealTree:#root Completed in 6425ms
+55 silly placeDep ROOT @angular/common@8.0.3 OK for: filestack@1.0.2 want: ~8.0.0
+56 silly placeDep ROOT rxjs@6.4.0 OK for: @angular/common@8.0.3 want: ^6.4.0
+57 silly placeDep ROOT @angular/core@8.0.3 OK for: @angular/common@8.0.3 want: 8.0.3
+58 silly placeDep ROOT zone.js@0.9.1 OK for: @angular/core@8.0.3 want: ~0.9.1
+59 silly placeDep ROOT @angular/compiler@8.0.3 OK for: filestack@1.0.2 want: ~8.0.0
+60 silly placeDep ROOT @angular/platform-browser@8.0.3 OK for: filestack@1.0.2 want: ~8.0.0
+61 silly placeDep ROOT @angular/platform-browser-dynamic@8.0.3 OK for: filestack@1.0.2 want: ~8.0.0
+62 silly placeDep ROOT filestack-js@3.27.0 OK for: filestack@1.0.2 want: 3.x.x
+63 silly placeDep ROOT tslib@1.14.1 OK for: filestack@1.0.2 want: ^1.9.0
+64 silly fetch manifest @babel/runtime@^7.8.4
+65 silly fetch manifest @filestack/loader@^1.0.4
+66 silly fetch manifest abab@^2.0.3
+67 silly fetch manifest debug@^4.1.1
+68 silly fetch manifest eventemitter3@^4.0.0
+69 silly fetch manifest fast-xml-parser@^4.2.4
+70 silly fetch manifest file-type@^10.11.0
+71 silly fetch manifest follow-redirects@^1.10.0
+72 silly fetch manifest isutf8@^2.1.0
+73 silly fetch manifest jsonschema@^1.2.5
+74 silly fetch manifest lodash.clonedeep@^4.5.0
+75 silly fetch manifest p-queue@^4.0.0
+76 silly fetch manifest spark-md5@^3.0.0
+77 silly fetch manifest ts-node@^8.10.2
+78 silly fetch manifest @sentry/minimal@^6.2.1
+79 http fetch GET 200 https://registry.npmjs.org/debug 72ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/follow-redirects 135ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/eventemitter3 140ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/p-queue 171ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/ts-node 189ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 219ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/jsonschema 525ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/isutf8 801ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/fast-xml-parser 1450ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/abab 1457ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/file-type 1464ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep 1468ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/spark-md5 2335ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/@filestack%2floader 2355ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@sentry%2fminimal 3089ms (cache miss)
+94 timing idealTree:node_modules/filestack Completed in 3145ms
+95 timing idealTree:node_modules/@angular/common Completed in 0ms
+96 timing idealTree:node_modules/@angular/compiler Completed in 0ms
+97 timing idealTree:node_modules/@angular/core Completed in 0ms
+98 timing idealTree:node_modules/@angular/platform-browser Completed in 0ms
+99 timing idealTree:node_modules/@angular/platform-browser-dynamic Completed in 0ms
+100 silly fetch manifest typescript@>=2.7
+101 http fetch GET 200 https://registry.npmjs.org/typescript 1517ms (cache miss)
+102 silly placeDep ROOT @babel/runtime@7.23.2 OK for: filestack-js@3.27.0 want: ^7.8.4
+103 silly placeDep ROOT @filestack/loader@1.0.9 OK for: filestack-js@3.27.0 want: ^1.0.4
+104 silly placeDep ROOT @sentry/minimal@6.19.7 OK for: filestack-js@3.27.0 want: ^6.2.1
+105 silly placeDep ROOT abab@2.0.6 OK for: filestack-js@3.27.0 want: ^2.0.3
+106 silly placeDep ROOT debug@4.3.4 OK for: filestack-js@3.27.0 want: ^4.1.1
+107 silly placeDep ROOT eventemitter3@4.0.7 OK for: filestack-js@3.27.0 want: ^4.0.0
+108 silly placeDep ROOT fast-xml-parser@4.3.2 OK for: filestack-js@3.27.0 want: ^4.2.4
+109 silly placeDep ROOT file-type@10.11.0 OK for: filestack-js@3.27.0 want: ^10.11.0
+110 silly placeDep ROOT follow-redirects@1.15.3 OK for: filestack-js@3.27.0 want: ^1.10.0
+111 silly placeDep ROOT isutf8@2.1.0 OK for: filestack-js@3.27.0 want: ^2.1.0
+112 silly placeDep ROOT jsonschema@1.4.1 OK for: filestack-js@3.27.0 want: ^1.2.5
+113 silly placeDep ROOT lodash.clonedeep@4.5.0 OK for: filestack-js@3.27.0 want: ^4.5.0
+114 silly placeDep ROOT p-queue@4.0.0 OK for: filestack-js@3.27.0 want: ^4.0.0
+115 silly placeDep ROOT spark-md5@3.0.2 OK for: filestack-js@3.27.0 want: ^3.0.0
+116 silly placeDep ROOT ts-node@8.10.2 OK for: filestack-js@3.27.0 want: ^8.10.2
+117 silly placeDep ROOT typescript@5.2.2 OK for: ts-node@8.10.2 want: >=2.7
+118 silly fetch manifest regenerator-runtime@^0.14.0
+119 silly fetch manifest @sentry/hub@6.19.7
+120 silly fetch manifest @sentry/types@6.19.7
+121 silly fetch manifest ms@2.1.2
+122 silly fetch manifest strnum@^1.0.5
+123 silly fetch manifest eventemitter3@^3.1.0
+124 silly fetch manifest arg@^4.1.0
+125 silly fetch manifest diff@^4.0.1
+126 silly fetch manifest make-error@^1.1.1
+127 silly fetch manifest source-map-support@^0.5.17
+128 silly fetch manifest yn@3.1.1
+129 http fetch GET 200 https://registry.npmjs.org/ms 51ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/source-map-support 56ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 100ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/strnum 448ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/arg 1317ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/make-error 1416ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/diff 1446ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/@sentry%2fhub 3011ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@sentry%2ftypes 3939ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/yn 5586ms (cache miss)
+139 timing idealTree:node_modules/filestack-js Completed in 7179ms
+140 silly placeDep ROOT regenerator-runtime@0.14.0 OK for: @babel/runtime@7.23.2 want: ^0.14.0
+141 timing idealTree:node_modules/@babel/runtime Completed in 2ms
+142 timing idealTree:node_modules/@filestack/loader Completed in 0ms
+143 silly placeDep ROOT @sentry/hub@6.19.7 OK for: @sentry/minimal@6.19.7 want: 6.19.7
+144 silly placeDep ROOT @sentry/types@6.19.7 OK for: @sentry/minimal@6.19.7 want: 6.19.7
+145 silly fetch manifest @sentry/utils@6.19.7
+146 http fetch GET 200 https://registry.npmjs.org/@sentry%2futils 3935ms (cache miss)
+147 timing idealTree:node_modules/@sentry/minimal Completed in 3947ms
+148 silly placeDep ROOT @sentry/utils@6.19.7 OK for: @sentry/hub@6.19.7 want: 6.19.7
+149 timing idealTree:node_modules/@sentry/hub Completed in 6ms
+150 timing idealTree:node_modules/@sentry/types Completed in 0ms
+151 timing idealTree:node_modules/@sentry/utils Completed in 0ms
+152 timing idealTree:node_modules/abab Completed in 0ms
+153 silly placeDep ROOT ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+154 timing idealTree:node_modules/debug Completed in 2ms
+155 timing idealTree:node_modules/eventemitter3 Completed in 0ms
+156 silly placeDep ROOT strnum@1.0.5 OK for: fast-xml-parser@4.3.2 want: ^1.0.5
+157 timing idealTree:node_modules/fast-xml-parser Completed in 2ms
+158 timing idealTree:node_modules/file-type Completed in 0ms
+159 timing idealTree:node_modules/follow-redirects Completed in 0ms
+160 timing idealTree:node_modules/isutf8 Completed in 0ms
+161 timing idealTree:node_modules/jsonschema Completed in 0ms
+162 timing idealTree:node_modules/lodash.clonedeep Completed in 0ms
+163 timing idealTree:node_modules/ms Completed in 0ms
+164 silly placeDep node_modules/p-queue eventemitter3@3.1.2 OK for: p-queue@4.0.0 want: ^3.1.0
+165 timing idealTree:node_modules/p-queue Completed in 3ms
+166 timing idealTree:node_modules/regenerator-runtime Completed in 0ms
+167 timing idealTree:node_modules/rxjs Completed in 0ms
+168 timing idealTree:node_modules/spark-md5 Completed in 0ms
+169 timing idealTree:node_modules/strnum Completed in 0ms
+170 silly placeDep ROOT arg@4.1.3 OK for: ts-node@8.10.2 want: ^4.1.0
+171 silly placeDep ROOT diff@4.0.2 OK for: ts-node@8.10.2 want: ^4.0.1
+172 silly placeDep ROOT make-error@1.3.6 OK for: ts-node@8.10.2 want: ^1.1.1
+173 silly placeDep ROOT source-map-support@0.5.21 OK for: ts-node@8.10.2 want: ^0.5.17
+174 silly placeDep ROOT yn@3.1.1 OK for: ts-node@8.10.2 want: 3.1.1
+175 silly fetch manifest buffer-from@^1.0.0
+176 silly fetch manifest source-map@^0.6.0
+177 http fetch GET 200 https://registry.npmjs.org/source-map 46ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/buffer-from 49ms (cache miss)
+179 timing idealTree:node_modules/ts-node Completed in 56ms
+180 timing idealTree:node_modules/arg Completed in 0ms
+181 timing idealTree:node_modules/diff Completed in 0ms
+182 timing idealTree:node_modules/make-error Completed in 0ms
+183 silly placeDep ROOT buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+184 silly placeDep ROOT source-map@0.6.1 OK for: source-map-support@0.5.21 want: ^0.6.0
+185 timing idealTree:node_modules/source-map-support Completed in 3ms
+186 timing idealTree:node_modules/buffer-from Completed in 0ms
+187 timing idealTree:node_modules/source-map Completed in 0ms
+188 timing idealTree:node_modules/tslib Completed in 0ms
+189 timing idealTree:node_modules/typescript Completed in 0ms
+190 timing idealTree:node_modules/yn Completed in 0ms
+191 timing idealTree:node_modules/zone.js Completed in 0ms
+192 timing idealTree:node_modules/p-queue/node_modules/eventemitter3 Completed in 0ms
+193 timing idealTree:buildDeps Completed in 20776ms
+194 timing idealTree:fixDepFlags Completed in 2ms
+195 warn EBADENGINE Unsupported engine {
+195 warn EBADENGINE   package: 'typescript@5.2.2',
+195 warn EBADENGINE   required: { node: '>=14.17' },
+195 warn EBADENGINE   current: { node: 'v12.22.9', npm: '8.5.1' }
+195 warn EBADENGINE }
+196 timing idealTree Completed in 20818ms
+197 timing reify:loadTrees Completed in 20819ms
+198 timing reify:diffTrees Completed in 3ms
+199 silly reify moves {}
+200 timing reify:retireShallow Completed in 0ms
+201 timing reify:createSparse Completed in 21ms
+202 timing reify:loadBundles Completed in 0ms
+203 silly audit bulk request {
+203 silly audit   crypto: [ '1.0.1' ],
+203 silly audit   filestack: [ '1.0.2' ],
+203 silly audit   '@angular/common': [ '8.0.3' ],
+203 silly audit   rxjs: [ '6.4.0' ],
+203 silly audit   '@angular/core': [ '8.0.3' ],
+203 silly audit   'zone.js': [ '0.9.1' ],
+203 silly audit   '@angular/compiler': [ '8.0.3' ],
+203 silly audit   '@angular/platform-browser': [ '8.0.3' ],
+203 silly audit   '@angular/platform-browser-dynamic': [ '8.0.3' ],
+203 silly audit   'filestack-js': [ '3.27.0' ],
+203 silly audit   tslib: [ '1.14.1' ],
+203 silly audit   '@babel/runtime': [ '7.23.2' ],
+203 silly audit   '@filestack/loader': [ '1.0.9' ],
+203 silly audit   '@sentry/minimal': [ '6.19.7' ],
+203 silly audit   abab: [ '2.0.6' ],
+203 silly audit   debug: [ '4.3.4' ],
+203 silly audit   eventemitter3: [ '4.0.7', '3.1.2' ],
+203 silly audit   'fast-xml-parser': [ '4.3.2' ],
+203 silly audit   'file-type': [ '10.11.0' ],
+203 silly audit   'follow-redirects': [ '1.15.3' ],
+203 silly audit   isutf8: [ '2.1.0' ],
+203 silly audit   jsonschema: [ '1.4.1' ],
+203 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+203 silly audit   'p-queue': [ '4.0.0' ],
+203 silly audit   'spark-md5': [ '3.0.2' ],
+203 silly audit   'ts-node': [ '8.10.2' ],
+203 silly audit   typescript: [ '5.2.2' ],
+203 silly audit   'regenerator-runtime': [ '0.14.0' ],
+203 silly audit   '@sentry/hub': [ '6.19.7' ],
+203 silly audit   '@sentry/types': [ '6.19.7' ],
+203 silly audit   '@sentry/utils': [ '6.19.7' ],
+203 silly audit   ms: [ '2.1.2' ],
+203 silly audit   strnum: [ '1.0.5' ],
+203 silly audit   arg: [ '4.1.3' ],
+203 silly audit   diff: [ '4.0.2' ],
+203 silly audit   'make-error': [ '1.3.6' ],
+203 silly audit   'source-map-support': [ '0.5.21' ],
+203 silly audit   yn: [ '3.1.1' ],
+203 silly audit   'buffer-from': [ '1.1.2' ],
+203 silly audit   'source-map': [ '0.6.1' ]
+203 silly audit }
+204 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+205 silly tarball no local data for buffer-from@https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz. Extracting by manifest.
+206 silly tarball no local data for yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz. Extracting by manifest.
+207 silly tarball no local data for source-map-support@https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz. Extracting by manifest.
+208 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-4.0.2.tgz. Extracting by manifest.
+209 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz. Extracting by manifest.
+210 silly tarball no local data for strnum@https://registry.npmjs.org/strnum/-/strnum-1.0.5.tgz. Extracting by manifest.
+211 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+212 silly tarball no local data for make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz. Extracting by manifest.
+213 silly tarball no local data for @sentry/utils@https://registry.npmjs.org/@sentry/utils/-/utils-6.19.7.tgz. Extracting by manifest.
+214 silly tarball no local data for @sentry/hub@https://registry.npmjs.org/@sentry/hub/-/hub-6.19.7.tgz. Extracting by manifest.
+215 silly tarball no local data for @sentry/types@https://registry.npmjs.org/@sentry/types/-/types-6.19.7.tgz. Extracting by manifest.
+216 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz. Extracting by manifest.
+217 silly tarball no local data for ts-node@https://registry.npmjs.org/ts-node/-/ts-node-8.10.2.tgz. Extracting by manifest.
+218 silly tarball no local data for spark-md5@https://registry.npmjs.org/spark-md5/-/spark-md5-3.0.2.tgz. Extracting by manifest.
+219 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz. Extracting by manifest.
+220 silly tarball no local data for p-queue@https://registry.npmjs.org/p-queue/-/p-queue-4.0.0.tgz. Extracting by manifest.
+221 silly tarball no local data for jsonschema@https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.1.tgz. Extracting by manifest.
+222 silly tarball no local data for isutf8@https://registry.npmjs.org/isutf8/-/isutf8-2.1.0.tgz. Extracting by manifest.
+223 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.3.tgz. Extracting by manifest.
+224 silly tarball no local data for lodash.clonedeep@https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz. Extracting by manifest.
+225 silly tarball no local data for file-type@https://registry.npmjs.org/file-type/-/file-type-10.11.0.tgz. Extracting by manifest.
+226 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+227 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz. Extracting by manifest.
+228 silly tarball no local data for abab@https://registry.npmjs.org/abab/-/abab-2.0.6.tgz. Extracting by manifest.
+229 silly tarball no local data for @sentry/minimal@https://registry.npmjs.org/@sentry/minimal/-/minimal-6.19.7.tgz. Extracting by manifest.
+230 silly tarball no local data for @filestack/loader@https://registry.npmjs.org/@filestack/loader/-/loader-1.0.9.tgz. Extracting by manifest.
+231 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.2.tgz. Extracting by manifest.
+232 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz. Extracting by manifest.
+233 silly tarball no local data for @angular/platform-browser-dynamic@https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-8.0.3.tgz. Extracting by manifest.
+234 silly tarball no local data for filestack-js@https://registry.npmjs.org/filestack-js/-/filestack-js-3.27.0.tgz. Extracting by manifest.
+235 silly tarball no local data for @angular/platform-browser@https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-8.0.3.tgz. Extracting by manifest.
+236 silly tarball no local data for zone.js@https://registry.npmjs.org/zone.js/-/zone.js-0.9.1.tgz. Extracting by manifest.
+237 silly tarball no local data for @angular/compiler@https://registry.npmjs.org/@angular/compiler/-/compiler-8.0.3.tgz. Extracting by manifest.
+238 silly tarball no local data for @angular/core@https://registry.npmjs.org/@angular/core/-/core-8.0.3.tgz. Extracting by manifest.
+239 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-6.4.0.tgz. Extracting by manifest.
+240 silly tarball no local data for @angular/common@https://registry.npmjs.org/@angular/common/-/common-8.0.3.tgz. Extracting by manifest.
+241 silly tarball no local data for filestack@https://registry.npmjs.org/filestack/-/filestack-1.0.2.tgz. Extracting by manifest.
+242 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.2.tgz. Extracting by manifest.
+243 silly tarball no local data for fast-xml-parser@https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.3.2.tgz. Extracting by manifest.
+244 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 245ms (cache miss)
+245 timing reifyNode:node_modules/ms Completed in 309ms
+246 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz 213ms (cache miss)
+247 timing reifyNode:node_modules/regenerator-runtime Completed in 311ms
+248 http fetch GET 200 https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz 288ms (cache miss)
+249 timing reifyNode:node_modules/buffer-from Completed in 326ms
+250 http fetch GET 200 https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 289ms (cache miss)
+251 timing reifyNode:node_modules/yn Completed in 332ms
+252 http fetch GET 200 https://registry.npmjs.org/strnum/-/strnum-1.0.5.tgz 276ms (cache miss)
+253 timing reifyNode:node_modules/strnum Completed in 334ms
+254 http fetch GET 200 https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 265ms (cache miss)
+255 timing reifyNode:node_modules/make-error Completed in 342ms
+256 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 314ms (cache miss)
+257 timing reifyNode:node_modules/arg Completed in 368ms
+258 http fetch GET 200 https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz 337ms (cache miss)
+259 timing reifyNode:node_modules/source-map-support Completed in 386ms
+260 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz 255ms (cache miss)
+261 timing reifyNode:node_modules/lodash.clonedeep Completed in 391ms
+262 http fetch GET 200 https://registry.npmjs.org/file-type/-/file-type-10.11.0.tgz 255ms (cache miss)
+263 timing reifyNode:node_modules/file-type Completed in 394ms
+264 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 255ms (cache miss)
+265 timing reifyNode:node_modules/debug Completed in 397ms
+266 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.3.tgz 270ms (cache miss)
+267 timing reifyNode:node_modules/follow-redirects Completed in 403ms
+268 http fetch GET 200 https://registry.npmjs.org/spark-md5/-/spark-md5-3.0.2.tgz 303ms (cache miss)
+269 timing reifyNode:node_modules/spark-md5 Completed in 410ms
+270 http fetch GET 200 https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.1.tgz 316ms (cache miss)
+271 timing reifyNode:node_modules/jsonschema Completed in 437ms
+272 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 313ms (cache miss)
+273 timing reifyNode:node_modules/eventemitter3 Completed in 457ms
+274 http fetch GET 200 https://registry.npmjs.org/abab/-/abab-2.0.6.tgz 312ms (cache miss)
+275 timing reifyNode:node_modules/abab Completed in 464ms
+276 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-4.0.2.tgz 432ms (cache miss)
+277 timing reifyNode:node_modules/diff Completed in 482ms
+278 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz 309ms (cache miss)
+279 timing reifyNode:node_modules/tslib Completed in 485ms
+280 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 460ms (cache miss)
+281 timing reifyNode:node_modules/source-map Completed in 494ms
+282 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 553ms
+283 timing auditReport:getReport Completed in 554ms
+284 silly audit report {
+284 silly audit report   '@angular/core': [
+284 silly audit report     {
+284 silly audit report       id: 1094291,
+284 silly audit report       url: 'https://github.com/advisories/GHSA-c75v-2vq8-878f',
+284 silly audit report       title: 'Cross site scripting in Angular',
+284 silly audit report       severity: 'moderate',
+284 silly audit report       vulnerable_versions: '<10.2.5',
+284 silly audit report       cwe: [Array],
+284 silly audit report       cvss: [Object]
+284 silly audit report     }
+284 silly audit report   ]
+284 silly audit report }
+285 timing metavuln:packument:@angular/core Completed in 0ms
+286 timing metavuln:cache:get:security-advisory:@angular/core:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 2ms
+287 timing metavuln:load:security-advisory:@angular/core:1094291 Completed in 35ms
+288 timing metavuln:cache:put:security-advisory:@angular/core:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 15ms
+289 timing metavuln:calculate:security-advisory:@angular/core:1094291 Completed in 53ms
+290 timing metavuln:packument:filestack Completed in 1ms
+291 timing metavuln:packument:@angular/common Completed in 1ms
+292 timing metavuln:packument:@angular/platform-browser Completed in 0ms
+293 timing metavuln:packument:@angular/platform-browser-dynamic Completed in 0ms
+294 timing metavuln:cache:get:security-advisory:filestack:PXfRQbpN1q39RoJioBI1H3iITMkX3XDqhzcrFDeyr83yN4ooYtrzZ7RDIfwKfJDQJgu5IIlQKtYfpj7hx31MBA== Completed in 2ms
+295 timing metavuln:load:security-advisory:filestack:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 5ms
+296 timing metavuln:cache:get:security-advisory:@angular/common:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 7ms
+297 timing metavuln:load:security-advisory:@angular/common:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 573ms
+298 timing metavuln:cache:get:security-advisory:@angular/platform-browser:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 580ms
+299 timing metavuln:load:security-advisory:@angular/platform-browser:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 31ms
+300 timing metavuln:cache:get:security-advisory:@angular/platform-browser-dynamic:YLE6YWw3JLqyewOyXn4zFLLh+lLE7fdNjTJaRWwV8Z2OyQ0XVTdZg4GYVgPbd46caQvdhSnakSIkYGhU8i/IFA== Completed in 612ms
+301 timing metavuln:load:security-advisory:@angular/platform-browser-dynamic:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 29ms
+302 timing metavuln:cache:put:security-advisory:filestack:PXfRQbpN1q39RoJioBI1H3iITMkX3XDqhzcrFDeyr83yN4ooYtrzZ7RDIfwKfJDQJgu5IIlQKtYfpj7hx31MBA== Completed in 678ms
+303 timing metavuln:calculate:security-advisory:filestack:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 685ms
+304 timing metavuln:cache:put:security-advisory:@angular/platform-browser-dynamic:YLE6YWw3JLqyewOyXn4zFLLh+lLE7fdNjTJaRWwV8Z2OyQ0XVTdZg4GYVgPbd46caQvdhSnakSIkYGhU8i/IFA== Completed in 44ms
+305 timing metavuln:calculate:security-advisory:@angular/platform-browser-dynamic:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 685ms
+306 timing metavuln:cache:put:security-advisory:@angular/common:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 109ms
+307 timing metavuln:calculate:security-advisory:@angular/common:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 689ms
+308 timing metavuln:cache:put:security-advisory:@angular/platform-browser:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 77ms
+309 timing metavuln:calculate:security-advisory:@angular/platform-browser:vjarweANc2llOkfKgqtJZ/HCpxqXtNBbuCwoZ2k9QcaS19z0OxEllnFHIZ4gL95u822V4Xn3BXLOOKpEd1XM1A== Completed in 689ms
+310 timing metavuln:cache:get:security-advisory:filestack:Q1x9fd9Vq3yKFQEnpp+1LEXlsHeEanWjYoPAibJymPPz343TaAthwLpU/VfD7AJu0NR7FWaPNGTHLhQ7PL077Q== Completed in 1ms
+311 timing metavuln:load:security-advisory:filestack:YLE6YWw3JLqyewOyXn4zFLLh+lLE7fdNjTJaRWwV8Z2OyQ0XVTdZg4GYVgPbd46caQvdhSnakSIkYGhU8i/IFA== Completed in 11ms
+312 timing metavuln:cache:put:security-advisory:filestack:Q1x9fd9Vq3yKFQEnpp+1LEXlsHeEanWjYoPAibJymPPz343TaAthwLpU/VfD7AJu0NR7FWaPNGTHLhQ7PL077Q== Completed in 24ms
+313 timing metavuln:calculate:security-advisory:filestack:YLE6YWw3JLqyewOyXn4zFLLh+lLE7fdNjTJaRWwV8Z2OyQ0XVTdZg4GYVgPbd46caQvdhSnakSIkYGhU8i/IFA== Completed in 37ms
+314 timing metavuln:cache:get:security-advisory:filestack:nto+at6jo4Cyk1YBgfoX0ONEtq46tLsrNi6wlYPDEMGl/33Z7IhhZB4/T6A7VIAn4EC4/AJnAV7OVByU5ARQdg== Completed in 2ms
+315 timing metavuln:load:security-advisory:filestack:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 2ms
+316 timing metavuln:cache:get:security-advisory:@angular/platform-browser:KqzK4F0xGdplPrHf7fzzZL3sHpqucItSyCklRMhA9VWTS4DIN39cFCo+9HH66t8ZnJrzzJ9oADzO5ViGqifz3g== Completed in 5ms
+317 timing metavuln:load:security-advisory:@angular/platform-browser:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 592ms
+318 timing metavuln:cache:get:security-advisory:@angular/platform-browser-dynamic:p7+bj2gcNobQLa9RP1ZVAxbT+rWJasVVs8qR+WSqY8HaAnlYwBdf6g7HPor+rx7juEsSO2WvH53BRAQmIFJjqQ== Completed in 598ms
+319 timing metavuln:load:security-advisory:@angular/platform-browser-dynamic:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 28ms
+320 timing metavuln:cache:put:security-advisory:@angular/platform-browser-dynamic:p7+bj2gcNobQLa9RP1ZVAxbT+rWJasVVs8qR+WSqY8HaAnlYwBdf6g7HPor+rx7juEsSO2WvH53BRAQmIFJjqQ== Completed in 37ms
+321 timing metavuln:calculate:security-advisory:@angular/platform-browser-dynamic:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 665ms
+322 http fetch GET 200 https://registry.npmjs.org/isutf8/-/isutf8-2.1.0.tgz 1870ms (cache miss)
+323 timing reifyNode:node_modules/isutf8 Completed in 2001ms
+324 http fetch GET 200 https://registry.npmjs.org/@sentry/minimal/-/minimal-6.19.7.tgz 1850ms (cache miss)
+325 timing metavuln:cache:put:security-advisory:@angular/platform-browser:KqzK4F0xGdplPrHf7fzzZL3sHpqucItSyCklRMhA9VWTS4DIN39cFCo+9HH66t8ZnJrzzJ9oADzO5ViGqifz3g== Completed in 85ms
+326 timing metavuln:calculate:security-advisory:@angular/platform-browser:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 682ms
+327 timing metavuln:cache:put:security-advisory:filestack:nto+at6jo4Cyk1YBgfoX0ONEtq46tLsrNi6wlYPDEMGl/33Z7IhhZB4/T6A7VIAn4EC4/AJnAV7OVByU5ARQdg== Completed in 679ms
+328 timing metavuln:calculate:security-advisory:filestack:vj4b8GyvyzlAVv0P7uURtZH6RKPENmib7z/c17KoAyzuXO1YF2fAqwwEEjzStynA1GR9mDWsm0EGmyMOSUuyCQ== Completed in 683ms
+329 timing metavuln:cache:get:security-advisory:filestack:Zscd4eKm/RvFG29+0T51bxY3tblIgIycyuyf44RIbMWdfyEy1nm7NJ2bTLdY+HiMkHm27jz6kjsnbjN4JqMRnw== Completed in 4ms
+330 timing metavuln:load:security-advisory:filestack:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 2ms
+331 timing metavuln:cache:get:security-advisory:@angular/platform-browser-dynamic:MRj+Hxio6tAkJM/O4p/da+zXGlijiWQvkECbnSGjw0o2Gl+YD9qHuMCUgeXdrYsJ4dzQoT1N3azAClO5IaAwIw== Completed in 8ms
+332 timing metavuln:load:security-advisory:@angular/platform-browser-dynamic:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 510ms
+333 timing reifyNode:node_modules/@sentry/minimal Completed in 2568ms
+334 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.2.tgz 2409ms (cache miss)
+335 timing reifyNode:node_modules/@babel/runtime Completed in 2573ms
+336 http fetch GET 200 https://registry.npmjs.org/p-queue/-/p-queue-4.0.0.tgz 2495ms (cache miss)
+337 timing reifyNode:node_modules/p-queue Completed in 2613ms
+338 timing metavuln:cache:put:security-advisory:@angular/platform-browser-dynamic:MRj+Hxio6tAkJM/O4p/da+zXGlijiWQvkECbnSGjw0o2Gl+YD9qHuMCUgeXdrYsJ4dzQoT1N3azAClO5IaAwIw== Completed in 80ms
+339 timing metavuln:calculate:security-advisory:@angular/platform-browser-dynamic:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 598ms
+340 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-3.1.2.tgz 2404ms (cache miss)
+341 timing reifyNode:node_modules/p-queue/node_modules/eventemitter3 Completed in 2619ms
+342 timing metavuln:cache:put:security-advisory:filestack:Zscd4eKm/RvFG29+0T51bxY3tblIgIycyuyf44RIbMWdfyEy1nm7NJ2bTLdY+HiMkHm27jz6kjsnbjN4JqMRnw== Completed in 600ms
+343 timing metavuln:calculate:security-advisory:filestack:5R/n+cLBbs6ojCl+Q0h7GWT+FX+tpv67c15/7i0mGkfC93YZaB9RmGM9RkN27bccfbzhxXf95kUWqGff6Lc+HQ== Completed in 607ms
+344 timing auditReport:init Completed in 2073ms
+345 timing reify:audit Completed in 2629ms
+346 http fetch GET 200 https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-4.3.2.tgz 2479ms (cache miss)
+347 timing reifyNode:node_modules/fast-xml-parser Completed in 2695ms
+348 http fetch GET 200 https://registry.npmjs.org/@sentry/hub/-/hub-6.19.7.tgz 2648ms (cache miss)
+349 timing reifyNode:node_modules/@sentry/hub Completed in 2741ms
+350 http fetch GET 200 https://registry.npmjs.org/ts-node/-/ts-node-8.10.2.tgz 2877ms (cache miss)
+351 timing reifyNode:node_modules/ts-node Completed in 2979ms
+352 http fetch GET 200 https://registry.npmjs.org/@sentry/utils/-/utils-6.19.7.tgz 3025ms (cache miss)
+353 timing reifyNode:node_modules/@sentry/utils Completed in 3115ms
+354 http fetch GET 200 https://registry.npmjs.org/@sentry/types/-/types-6.19.7.tgz 3054ms (cache miss)
+355 timing reifyNode:node_modules/@sentry/types Completed in 3149ms
+356 http fetch GET 200 https://registry.npmjs.org/zone.js/-/zone.js-0.9.1.tgz 3004ms (cache miss)
+357 timing reifyNode:node_modules/zone.js Completed in 3193ms
+358 http fetch GET 200 https://registry.npmjs.org/@filestack/loader/-/loader-1.0.9.tgz 3982ms (cache miss)
+359 timing reifyNode:node_modules/@filestack/loader Completed in 4139ms
+360 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz 4084ms (cache miss)
+361 timing reifyNode:node_modules/typescript Completed in 4193ms
+362 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-6.4.0.tgz 4490ms (cache miss)
+363 timing reifyNode:node_modules/rxjs Completed in 4692ms
+364 http fetch GET 200 https://registry.npmjs.org/filestack-js/-/filestack-js-3.27.0.tgz 4766ms (cache miss)
+365 timing reifyNode:node_modules/filestack-js Completed in 4950ms
+366 http fetch GET 200 https://registry.npmjs.org/filestack/-/filestack-1.0.2.tgz 5072ms (cache miss)
+367 timing reifyNode:node_modules/filestack Completed in 5278ms
+368 http fetch GET 200 https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-8.0.3.tgz 5282ms (cache miss)
+369 timing reifyNode:node_modules/@angular/platform-browser-dynamic Completed in 5462ms
+370 http fetch GET 200 https://registry.npmjs.org/@angular/common/-/common-8.0.3.tgz 8029ms (cache miss)
+371 timing reifyNode:node_modules/@angular/common Completed in 8233ms
+372 http fetch GET 200 https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-8.0.3.tgz 9005ms (cache miss)
+373 timing reifyNode:node_modules/@angular/platform-browser Completed in 9191ms
+374 http fetch GET 200 https://registry.npmjs.org/@angular/compiler/-/compiler-8.0.3.tgz 9755ms (cache miss)
+375 timing reifyNode:node_modules/@angular/compiler Completed in 9947ms
+376 http fetch GET 200 https://registry.npmjs.org/@angular/core/-/core-8.0.3.tgz 14344ms (cache miss)
+377 timing reifyNode:node_modules/@angular/core Completed in 14540ms
+378 timing reify:unpack Completed in 14542ms
+379 timing reify:unretire Completed in 0ms
+380 timing build:queue Completed in 3ms
+381 timing build:link:node_modules/fast-xml-parser Completed in 7ms
+382 timing build:link:node_modules/typescript Completed in 5ms
+383 timing build:link:node_modules/ts-node Completed in 6ms
+384 timing build:link Completed in 8ms
+385 timing build:deps Completed in 11ms
+386 timing build Completed in 11ms
+387 timing reify:build Completed in 12ms
+388 timing reify:trash Completed in 0ms
+389 timing reify:save Completed in 19ms
+390 timing reify Completed in 35446ms
+391 silly ADD node_modules/source-map
+392 silly ADD node_modules/buffer-from
+393 silly ADD node_modules/yn
+394 silly ADD node_modules/source-map-support
+395 silly ADD node_modules/make-error
+396 silly ADD node_modules/diff
+397 silly ADD node_modules/arg
+398 silly ADD node_modules/strnum
+399 silly ADD node_modules/ms
+400 silly ADD node_modules/@sentry/utils
+401 silly ADD node_modules/@sentry/types
+402 silly ADD node_modules/@sentry/hub
+403 silly ADD node_modules/regenerator-runtime
+404 silly ADD node_modules/typescript
+405 silly ADD node_modules/ts-node
+406 silly ADD node_modules/spark-md5
+407 silly ADD node_modules/p-queue
+408 silly ADD node_modules/p-queue/node_modules/eventemitter3
+409 silly ADD node_modules/lodash.clonedeep
+410 silly ADD node_modules/jsonschema
+411 silly ADD node_modules/isutf8
+412 silly ADD node_modules/follow-redirects
+413 silly ADD node_modules/file-type
+414 silly ADD node_modules/fast-xml-parser
+415 silly ADD node_modules/eventemitter3
+416 silly ADD node_modules/debug
+417 silly ADD node_modules/abab
+418 silly ADD node_modules/@sentry/minimal
+419 silly ADD node_modules/@filestack/loader
+420 silly ADD node_modules/@babel/runtime
+421 silly ADD node_modules/tslib
+422 silly ADD node_modules/filestack-js
+423 silly ADD node_modules/@angular/platform-browser-dynamic
+424 silly ADD node_modules/@angular/platform-browser
+425 silly ADD node_modules/@angular/compiler
+426 silly ADD node_modules/zone.js
+427 silly ADD node_modules/@angular/core
+428 silly ADD node_modules/rxjs
+429 silly ADD node_modules/@angular/common
+430 silly ADD node_modules/filestack
+431 timing command:install Completed in 35476ms
+432 verbose exit 0
+433 timing npm Completed in 35668ms
+434 info ok

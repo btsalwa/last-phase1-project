@@ -51,3 +51,6 @@
 
 2023-11-07 01:25:42.232 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /YOUR_DATA_URL_HERE [33m404[0m 1.426 ms - 157[0m
 
+2023-11-07 01:37:05.534 [info] [127.0.0.1][867f6f5e][ManagementConnection] New connection established.
+2023-11-07 01:37:05.894 [info] [127.0.0.1][a9cf16eb][ExtensionHostConnection] New connection established.
+2023-11-07 01:37:05.903 [info] [127.0.0.1][a9cf16eb][ExtensionHostConnection] <25618> Launched Extension Host Process.

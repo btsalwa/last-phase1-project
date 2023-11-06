@@ -1,0 +1,23 @@
+2023-11-07 01:37:06.670 [info] Extension host with pid 25618 started
+2023-11-07 01:37:06.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-07 01:37:06.715 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2023-11-07 01:37:06.868 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-11-07 01:37:06.950 [info] Lock '/home/btsalwa/.vscode-server/data/User/workspaceStorage/fa96da66a25d6f5b735a2b1c25e5f17a/vscode.lock': Lock acquired.
+2023-11-07 01:37:06.981 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-07 01:37:06.982 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-07 01:37:07.916 [info] Eager extensions activated
+2023-11-07 01:37:07.917 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 01:37:07.918 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 01:37:07.918 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 01:37:28.661 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-11-07 01:37:28.662 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-07 01:37:34.889 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-11-07 01:37:57.440 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-11-07 01:37:57.441 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-11-07 01:38:17.371 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-11-07 01:38:17.895 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-11-07 01:38:18.754 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-11-07 01:43:21.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 320
+2023-11-07 01:43:36.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9348
+2023-11-07 01:43:42.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9348
+2023-11-07 01:44:25.373 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9348
