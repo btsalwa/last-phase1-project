@@ -33,3 +33,7 @@
 
 2023-11-07 00:26:39.506 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 0.749 ms - 148[0m
 
+2023-11-07 00:29:48.402 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 0.802 ms - 148[0m
+
+2023-11-07 00:29:57.457 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /script.js [33m404[0m 1.058 ms - 148[0m
+
