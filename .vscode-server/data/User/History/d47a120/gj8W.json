@@ -1,0 +1,10 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.openRepositoryInParentFolders": "always",
+    "liveServer.settings.donotVerifyTags": true,
+    "window.zoomLevel": -1,
+    "git.enableSmartCommit": true
+}
