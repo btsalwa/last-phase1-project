@@ -6,10 +6,46 @@ document.addEventListener('DOMContentLoaded', () => {
 	const client = filestack.init('Aq8UYLMeXR2i6lyeC9twez');  // Replace with your Filestack API key
 
 	function listUploadedFiles() {
-        client.options({
-            fromSources: ["local_file_system","url","facebook","instagram","audio","video","webcam","dropbox"],
-            maxFiles: 10,
-        }).then(response => {
+        const options ={
+
+
+			onUploadDone: (res) => console.log(res), 
+		
+		   "accept": [
+			   ".pdf",
+			   "image/jpeg",
+			   "image/png",
+			   "image/*",
+			   "video/*",
+			   "audio/*",
+			   "application/*"
+		   ],
+		   "fromSources": [
+			   "local_file_system",
+			   "url",
+			   "facebook",
+			   "instagram",
+			   "audio",
+			   "video",
+			   "webcam",
+			   "dropbox"
+		   ],
+		   "transformations": {
+			   "crop": true,
+			   "circle": true,
+			   "rotate": false
+		   },
+		   "maxFiles": 10,
+		   "minFiles": 1,
+		   "maxSize": 10000000000,
+		   "imageDim": [
+			   500,
+			   600
+		   ]
+		   
+	   	};
+		
+    })	.then(response => {
             response.filesUploaded.forEach(file => {
                 const listItem = document.createElement('li');
                 listItem.innerText = file.filename;
@@ -18,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }).catch(error => {
             console.error('Filestack upload failed:', error);
         });
-    }
+    
 
     uploadButton.addEventListener('click', () => {
        
@@ -28,44 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           	});
 
-        	const options ={
-
-
- 	        	onUploadDone: (res) => console.log(res), 
-             
-				"accept": [
-					".pdf",
-					"image/jpeg",
-					"image/png",
-					"image/*",
-					"video/*",
-					"audio/*",
-					"application/*"
-				],
-				"fromSources": [
-					"local_file_system",
-					"url",
-					"facebook",
-					"instagram",
-					"audio",
-					"video",
-					"webcam",
-					"dropbox"
-				],
-				"transformations": {
-					"crop": true,
-					"circle": true,
-					"rotate": false
-				},
-				"maxFiles": 10,
-				"minFiles": 1,
-				"maxSize": 10000000000,
-				"imageDim": [
-					500,
-					600
-				]
-				
-			};
+        	
 
         
         

@@ -54,3 +54,9 @@
 2023-11-07 01:37:05.534 [info] [127.0.0.1][867f6f5e][ManagementConnection] New connection established.
 2023-11-07 01:37:05.894 [info] [127.0.0.1][a9cf16eb][ExtensionHostConnection] New connection established.
 2023-11-07 01:37:05.903 [info] [127.0.0.1][a9cf16eb][ExtensionHostConnection] <25618> Launched Extension Host Process.
+2023-11-07 03:07:46.764 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /favicon.ico [33m404[0m 2.419 ms - 150[0m
+
+2023-11-07 03:13:15.314 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /home/btsalwa/filestack/simon-lee-FSbgF7PpUio-unsplash.jpg [33m404[0m 1.327 ms - 196[0m
+
+2023-11-07 03:14:18.175 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /FSbgF7PpUio-unsplash.jpg [33m404[0m 0.918 ms - 163[0m
+

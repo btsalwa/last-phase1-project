@@ -3,11 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const uploadButton = document.getElementById('uploadButton');
     const fileItems = document.getElementById('fileItems');
 
-	const client = filestack.init('Aq8UYLMeXR2i6lyeC9twez');  // Replace with your Filestack API key
-
 	function listUploadedFiles() {
-        client.options({
-            fromSources: ["local_file_system","url","facebook","instagram","audio","video","webcam","dropbox"],
+        client.picker({
+            fromSources: [],
             maxFiles: 10,
         }).then(response => {
             response.filesUploaded.forEach(file => {
@@ -21,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     uploadButton.addEventListener('click', () => {
-       
-        
+        const apikey = 'Aq8UYLMeXR2i6lyeC9twez';
+        const client = filestack.init(apikey);  // Replace with your Filestack API key
         client.on('upload.error', (filestackError) => {
             console.log(filestackError);
 
