@@ -1,13 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
+    const fileInput = document.getElementById('fileInput');
     const uploadButton = document.getElementById('uploadButton');
     const fileItems = document.getElementById('fileItems');
 
 	const client = filestack.init('Aq8UYLMeXR2i6lyeC9twez');  // Replace with your Filestack API key
 
     uploadButton.addEventListener('click', () => {
-		
-		
        
         
         client.on('upload.error', (filestackError) => {

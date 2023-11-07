@@ -6,7 +6,28 @@ document.addEventListener('DOMContentLoaded', () => {
 	const client = filestack.init('Aq8UYLMeXR2i6lyeC9twez');  // Replace with your Filestack API key
 
     uploadButton.addEventListener('click', () => {
-		
+		const options = {
+            onUploadDone: (response) => {
+                // This function is called when a file is successfully uploaded
+                console.log('File uploaded:', response);
+
+                // You can access the uploaded file information in the 'response' object
+                const uploadedFile = response.filesUploaded[0];
+                const fileName = uploadedFile.filename;
+                const fileURL = uploadedFile.url;
+
+                // Add the file information to the list
+                const listItem = document.createElement('li');
+                listItem.innerText = `File Name: ${fileName}, File URL: ${fileURL}`;
+                fileItems.appendChild(listItem);
+            },
+            // ... your existing options
+        };
+
+        const picker = client.picker(options);
+        picker.open();
+    });
+});
 		
        
         

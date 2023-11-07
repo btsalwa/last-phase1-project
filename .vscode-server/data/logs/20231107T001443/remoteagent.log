@@ -60,3 +60,7 @@
 
 2023-11-07 03:14:18.175 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /FSbgF7PpUio-unsplash.jpg [33m404[0m 0.918 ms - 163[0m
 
+2023-11-07 03:16:37.899 [info] [127.0.0.1][867f6f5e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-07 03:16:38.123 [info] [127.0.0.1][a9cf16eb][ExtensionHostConnection] <25618> Extension Host Process exited with code: 0, signal: null.
+2023-11-07 03:24:06.103 [info] [127.0.0.1][82b8958a][ExtensionHostConnection] <613> [0mGET /favicon.ico [33m404[0m 1.298 ms - 150[0m
+

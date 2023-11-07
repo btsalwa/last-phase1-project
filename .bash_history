@@ -29,3 +29,6 @@ git config --list
 cd filestack
 code .
 ls
+npm install filestack
+sudo apt install npm
+npm install filestack
